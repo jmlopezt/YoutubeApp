@@ -2,4 +2,12 @@
     <string name="app_name">Youtube Player</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_youtube">Youtube Player</string>
+    <string name="onInitialisedToast">Initialised Youtube Player successfully</string>
+    <string name="onInitialisationFailedToast">Failed to Initialise Youtube Player</string>
+    <string name="onPlaying_toast">Playing video</string>
+    <string name="onPaused_toast">Video Paused</string>
+    <string name="onVideoStarted_toast">The video has started</string>
+    <string name="onAdStarted_toast">Click Ad now !</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Youtube Player</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_youtube">Youtube Player</string>
+    <string name="onInitialisedToast">Reproductor de Youtube inicializado correctamente</string>
+    <string name="onInitialisationFailedToast">Ha fallado la inicialización del reproductor de Youtube</string>
+    <string name="onPlaying_toast">Reproduciendo video</string>
+    <string name="onPaused_toast">El video se ha pausado</string>
+    <string name="onVideoStarted_toast">Empieza el video</string>
+    <string name="onAdStarted_toast" >Haz click ya!</string>
+</resources>

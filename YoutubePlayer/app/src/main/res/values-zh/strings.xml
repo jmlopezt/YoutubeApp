@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Youtube Player</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_youtube">Youtube Player</string>
+    <string name="onInitialisedToast">关于 Youtube Player 发生好了。</string>
+    <string name="onInitialisationFailedToast">关于 Youtube Player 发生错误。</string>
+    <string name="onPlaying_toast">电影开始了。</string>
+    <string name="onPaused_toast">电影停了。</string>
+    <string name="onVideoStarted_toast">看著这个電影。</string>
+    <string name="onAdStarted_toast" >打开</string>
+</resources>
