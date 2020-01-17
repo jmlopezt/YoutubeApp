@@ -9,4 +9,8 @@
     <string name="onPaused_toast">电影停了。</string>
     <string name="onVideoStarted_toast">看著这个電影。</string>
     <string name="onAdStarted_toast" >打开</string>
+    <string name="btnPlayVideoText">播放视频</string>
+    <string name="btnPlayListText" >播放播放列表</string>
+    <string name="btnPlaySingleVideoText">播放一个视频</string>
+    <string name="btnStandaloneText">Standalone Sub Menu</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.youtubeplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -11,8 +12,12 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    private Button btnSingle;
+    private Button btnStandalone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        btnSingle = (Button) findViewById(R.id.btnPlaySingle);
+        btnStandalone = (Button) findViewById(R.id.btnStandaloneActivity);
+        btnSingle.setOnClickListener(this);
+        btnStandalone.setOnClickListener(this);
    }
 
     @Override
@@ -42,5 +52,24 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()){
+            case R.id.btnPlaySingle:
+                intent = new Intent(MainActivity.this,YoutubeActivity.class);
+                break;
+            case R.id.btnStandaloneActivity:
+                intent = new Intent(MainActivity.this,StandaloneActivity.class);
+                break;
+            default:
+        }
+        if (intent!=null){
+            startActivity(intent);
+        }
+
     }
 }

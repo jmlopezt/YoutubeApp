@@ -9,4 +9,8 @@
     <string name="onPaused_toast">El video se ha pausado</string>
     <string name="onVideoStarted_toast">Empieza el video</string>
     <string name="onAdStarted_toast" >Haz click ya!</string>
+    <string name="btnPlayVideoText">Reproducir Video</string>
+    <string name="btnPlayListText" >Reproducir Lista de reproducción</string>
+    <string name="btnPlaySingleVideoText">Reproducir un único video</string>
+    <string name="btnStandaloneText">Standalone Sub Menu</string>
 </resources>

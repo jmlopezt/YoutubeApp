@@ -8,6 +8,10 @@
     <string name="onPaused_toast">Video Paused</string>
     <string name="onVideoStarted_toast">The video has started</string>
     <string name="onAdStarted_toast">Click Ad now !</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_standalone" translatable="false">Standalone Activity</string>
+    <string name="btnPlayVideoText">Play Video</string>
+    <string name="btnPlayListText" >Play PlayList</string>
+    <string name="btnPlaySingleVideoText">Play a Single Video</string>
+    <string name="btnStandaloneText">Standalone Sub Menu</string>
 
 </resources>

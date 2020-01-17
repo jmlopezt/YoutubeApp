@@ -6,31 +6,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main"
-    tools:context=".MainActivity">
+    tools:context=".StandaloneActivity"
+    tools:showIn="@layout/activity_standalone">
 
     <Button
-        android:id="@+id/btnPlaySingle"
+        android:id="@+id/btnPlayVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/btnPlaySingleVideoText"
+        android:text="@string/btnPlayVideoText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnStandaloneActivity"
+        android:id="@+id/btnPlayList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="100dp"
-        android:text="@string/btnStandaloneText"
-        app:layout_constraintStart_toEndOf="@+id/btnPlaySingle"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnPlayListText"
+        app:layout_constraintStart_toEndOf="@+id/btnPlayVideo"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

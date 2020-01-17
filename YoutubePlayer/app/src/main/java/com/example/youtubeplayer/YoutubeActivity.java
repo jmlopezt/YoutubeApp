@@ -19,21 +19,21 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 
 
     private String YOUTUBE_API_KEY = "AIzaSyB9iK4A9yQgG6e7vx0d6aT41h_4LfNg0_o";
-    private String YOUTUBE_VIDEO_ID = "_11rxWXFRj4";
+    private String YOUTUBE_VIDEO_ID = "wa-8VjTNV6c";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube);
 
-        YouTubePlayerView youTubePlayerView = (YouTubePlayerView) findViewById(R.id.youtube_player);
+        YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player);
         youTubePlayerView.initialize(YOUTUBE_API_KEY,this);
 
     }
 
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean wasRestored) {
-        Toast.makeText(this, R.string.onInitialisedToast, Toast.LENGTH_SHORT);
+        Toast.makeText(this, R.string.onInitialisedToast, Toast.LENGTH_SHORT).show();
         youTubePlayer.setPlayerStateChangeListener(playerStateChangeListener);
         youTubePlayer.setPlaybackEventListener(playbackEventListener);
 
@@ -106,6 +106,6 @@ public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 
     @Override
     public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-        Toast.makeText(this, R.string.onInitialisedToast, Toast.LENGTH_SHORT);
+        Toast.makeText(this, R.string.onInitialisationFailedToast, Toast.LENGTH_SHORT).show();
     }
 }
