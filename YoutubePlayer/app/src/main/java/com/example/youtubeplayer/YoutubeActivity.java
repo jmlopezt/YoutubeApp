@@ -18,7 +18,7 @@ import android.widget.Toast;
 public class YoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
 
-    private String YOUTUBE_API_KEY = "AIzaSyB9iK4A9yQgG6e7vx0d6aT41h_4LfNg0_o";
+    private String YOUTUBE_API_KEY = "Your API key";
     private String YOUTUBE_VIDEO_ID = "wa-8VjTNV6c";
 
     @Override
