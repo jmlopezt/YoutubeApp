@@ -15,7 +15,7 @@ import android.widget.Button;
 
 public class StandaloneActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private String YOUTUBE_API_KEY = "AIzaSyB9iK4A9yQgG6e7vx0d6aT41h_4LfNg0_o";
+    private String YOUTUBE_API_KEY = "Your API Key";
     private String YOUTUBE_VIDEO_ID = "wa-8VjTNV6c";
     private String YOUTUBE_PLAYLIST_ID = "PL597E0BDDC1D74ED2";
     private Button btnPlayVideo;
